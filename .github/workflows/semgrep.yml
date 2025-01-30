@@ -20,4 +20,4 @@ jobs:
       image: semgrep/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep ci #test secrets
+    - run: semgrep ci #test secre
