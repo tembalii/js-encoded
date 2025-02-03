@@ -4,4 +4,3 @@ host = "localhost"
 port = 5432
 user = "api_user"
 password = "hhgrewareawea"  # Hardcoded secret detected by Semgrep
-max_idle_conn = 4
