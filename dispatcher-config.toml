@@ -1,7 +1,0 @@
-# Dispatcher Configuration
-[database]
-host = "localhost"
-port = 5432
-user = "dispatcher_user"
-password = "hhgrewareawea"  # Hardcoded secret detected by Semgrep
-max_idle_conn = 4
