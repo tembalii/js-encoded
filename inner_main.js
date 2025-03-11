@@ -10,7 +10,7 @@
       <ChevronDoubleDownIcon className="h-5 w-5 shrink-0 text-primary" />
       <span
         dangerouslySetInnerHTML={{ __html: change.newLabel }}
-        className="text-xl font-bold"
+        className="text-xl font-bool"
       />
     </>
   )}
