@@ -26,7 +26,6 @@ def gen_api_client(client_id, token_url, username, password):
             'password': password
         }
     )
-
     client.health_check()
 
     return client
