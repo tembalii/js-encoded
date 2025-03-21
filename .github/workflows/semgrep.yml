@@ -6,8 +6,7 @@ on:
     - main
     - master
     - develop
-    paths:
-    - .github/workflows/semgrep.yml
+    - pr-6
   schedule:
   - cron: 32 21 * * *
 name: Semgrep
