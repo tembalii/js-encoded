@@ -16,8 +16,6 @@ CLIENT_ID = 'testclient'
 CLIENT_SECRET = '56789'
 
 BASE_URL = 'https://dev.com'
-
-
 def gen_api_client(client_id, token_url, username, password):
     client = Client(
         api_url=BASE_URL,
