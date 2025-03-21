@@ -5,7 +5,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 @app.get("/direct/{input}")
 def direct_response(input: str):
 
