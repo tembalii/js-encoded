@@ -5,6 +5,7 @@ on:
     branches:
     - main
     - master
+    - pr-6
   schedule:
   - cron: 32 21 * * *
 name: Semgrep
